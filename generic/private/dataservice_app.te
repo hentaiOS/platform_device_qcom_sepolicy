@@ -31,7 +31,6 @@ net_domain(vendor_dataservice_app)
 
 add_service(vendor_dataservice_app, vendor_cne_service)
 add_service(vendor_dataservice_app, vendor_dpmservice)
-add_service(vendor_dataservice_app, uce_service)
 allow vendor_dataservice_app {
   app_api_service
   system_api_service
